@@ -25,11 +25,11 @@ const MovieDetails = ({ movie, disctionary }) => {
             />
           </div>
           <div className="col-span-8">
-            <h2 className="font-bold text-slate-300 text-2xl">
+            <h2 className="font-bold dark:text-black text-2xl">
               {movie.original_title}
             </h2>
-            <p className="my-2 text-slate-400 italic">{movie.overview}</p>
-            <ul className="text-slate-300 space-y-2 my-8">
+            <p className="my-2 dark:text-black italic">{movie.overview}</p>
+            <ul className="dark:text-black space-y-2 my-8">
               <li>
                 {disctionary.release_date} : {movie.release_date}
               </li>
