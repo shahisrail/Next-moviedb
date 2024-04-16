@@ -1,5 +1,5 @@
-import MovieList from "./Components/MovieList";
-import Sidebar from "./Components/Sidebar";
+import MovieList from "../Components/MovieList";
+import Sidebar from "../Components/Sidebar";
 export default function Home() {
   // throw new Error("HEllo");
   return (

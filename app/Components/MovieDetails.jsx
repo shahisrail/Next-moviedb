@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Sidebar from "./Sidebar";
-const MovieDetails = ({ movie }) => {
+
+const MovieDetails = ({ movie, disctionary }) => {
   return (
     <section className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
       <Sidebar />
@@ -29,10 +30,18 @@ const MovieDetails = ({ movie }) => {
             </h2>
             <p className="my-2 text-slate-400 italic">{movie.overview}</p>
             <ul className="text-slate-300 space-y-2 my-8">
-              <li>Release Date : {movie.release_date}</li>
-              <li>Average Vote :{movie.vote_average}</li>
-              <li>Vote Count : {movie.vote_count}</li>
-              <li>Popularity : {movie.popularity}</li>
+              <li>
+                {disctionary.release_date} : {movie.release_date}
+              </li>
+              <li>
+                {disctionary.vote_average} :{movie.vote_average}
+              </li>
+              <li>
+                {disctionary.vote_count} : {movie.vote_count}
+              </li>
+              <li>
+                {disctionary.overview} : {movie.popularity}
+              </li>
             </ul>
           </div>
           <div className="col-span-2 space-y-4">

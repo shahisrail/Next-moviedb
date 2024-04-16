@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark {
+  @apply bg-[#1D1E28] text-white;
+}
+
 /*
 ! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
 */
