@@ -9,8 +9,8 @@ const MovieCard = ({ movie }) => {
           width={200}
           height={200}
           className="w-full object-cover"
-          src={movie.poster_path}
-          alt={movie.title}
+          src={movie?.poster_path}
+          alt={movie?.title}
         />
         <figcaption className="pt-4">
           <h3 className="text-xl mb-1">{movie.title}</h3>
@@ -24,7 +24,8 @@ const MovieCard = ({ movie }) => {
               (_, index) => (
                 <Image
                   key={index}
-                  src="./star.svg"
+                  src="https://i.postimg.cc/65WjNfqD/star.png
+                  "
                   width="14"
                   height="14"
                   alt="Star"
@@ -33,10 +34,16 @@ const MovieCard = ({ movie }) => {
             )}
           </div>
           <Link
-            href={`Movies/${movie.id}`}
+            href={`movies/${movie.id}`}
             className="bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm"
           >
-            <Image src="./tag.svg" width={20} height={20} alt="Details" />
+            <Image
+              src="https://i.postimg.cc/MpX9nZy5/tag.png
+"
+              width={20}
+              height={20}
+              alt="Details"
+            />
             <span>Details</span>
           </Link>
         </figcaption>
