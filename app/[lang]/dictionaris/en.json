@@ -6,5 +6,10 @@
   "original_title": "original title",
   "release_date": "release_date",
   "popularity": "popularity",
-  "overview": "overview"
+  "overview": "overview",
+  "Trending": "Trending",
+  "NewReleases": "New Releases",
+  "ComingSoon": "Coming Soon",
+  "Favourites": "Favourites",
+  "WatchLater": "Watch Later"
 }

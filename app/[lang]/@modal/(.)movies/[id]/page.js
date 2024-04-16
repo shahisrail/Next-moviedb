@@ -1,7 +1,7 @@
 import Modal from "@/app/Components/MOdal";
 import MovieDetails from "@/app/Components/MovieDetails";
 import { datas } from "@/app/lib/datas";
-import { getDictionary } from "../../disctionaries";
+import { getDictionary } from "../../../disctionaries";
 
 export default async function MoviesDetailsPage({ params: { lang, id } }) {
   const disctionary = await getDictionary(lang);
