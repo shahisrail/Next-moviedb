@@ -10,8 +10,11 @@ export default function Error({ error, reset }) {
 
   return (
     <div>
-      <h2>Something went wrong From Root !</h2>
+      <h2 className="text-center text-5xl text-red-500">
+        Something went wrong From Root !😪😭
+      </h2>
       <button
+        className="text-center text-3xl text-red-500"
         onClick={
           // Attempt to recover by trying to re-render the segment
           () => reset()
