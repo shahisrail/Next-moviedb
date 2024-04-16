@@ -5,7 +5,7 @@ export default function NotFound() {
     <div>
       <h2 className="text-center text-3xl ">Not Found 🙁😢</h2>
       <p className="text-center text-3xl ">
-        Could not find requested this movie resource from length{" "}
+        Could not find requested this movie resource from root length{" "}
       </p>
       <div className="flex justify-center">
         <Link href="/">
