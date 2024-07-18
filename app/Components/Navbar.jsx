@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { useContext } from "react";
 import { CiDark, CiLight } from "react-icons/ci";
 import { ThemeContext } from "../Context/Darkmode";
@@ -11,14 +10,7 @@ const Navbar = () => {
     <div>
       <header>
         <nav className=" dark:bg-[#052646] container flex items-center justify-between space-x-10 py-6">
-          <Link href="/">
-            <Image
-              src="https://i.postimg.cc/4dpLX8zT/logo.png"
-              width="139"
-              height="26"
-              alt=""
-            />
-          </Link>
+      
 
           <ul className="flex items-center space-x-5">
             <li>
