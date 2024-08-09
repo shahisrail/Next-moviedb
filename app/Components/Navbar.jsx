@@ -10,7 +10,9 @@ const Navbar = () => {
     <div>
       <header>
         <nav className=" dark:bg-[#052646] container flex items-center justify-between space-x-10 py-6">
-      
+         <main>
+         <a href="#"> MovieDB</a>
+         </main>
 
           <ul className="flex items-center space-x-5">
             <li>
